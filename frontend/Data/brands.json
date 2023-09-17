@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "cover": "/images/cars/acura.png",
+        "name": "acura"
+        
+    },
+    {
+        "id": 2,
+        "cover": "/images/cars/audi.png",
+        "name": "audi"
+    },
+    {
+        "id": 3,
+        "cover": "/images/cars/benz.png",
+        "name": "merceded benz"
+    },
+    {
+        "id": 4,
+        "cover": "/images/cars/bmw.jpeg",
+        "name": "BMW"
+    },
+    {
+        "id": 5,
+        "cover": "/images/cars/ford.png",
+        "name": "ford"
+    },
+    {
+        "id": 6,
+        "cover": "/images/cars/hyundai.png",
+        "name": "hyundai"
+    },
+    {
+        "id": 7,
+        "cover": "/images/cars/nissan.png",
+        "name": "nissan"
+    },
+    {
+        "id": 8,
+        "cover": "/images/cars/toyota.jpeg",
+        "name": "toyota"
+    },
+    {
+        "id": 9,
+        "cover": "/images/cars/voltswagon.jpeg",
+        "name": "voltswagon"
+    }
+]

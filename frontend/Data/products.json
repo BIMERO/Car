@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "prod": "/images/products/product-1.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 2,
+        "prod": "/images/products/product-2.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 3,
+        "prod": "/images/products/product-3.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 4,
+        "prod": "/images/products/product-4.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 5,
+        "prod": "/images/products/product-5.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 6,
+        "prod": "/images/products/product-6.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 7,
+        "prod": "/images/products/product-7.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    },
+    {
+        "id": 8,
+        "prod": "/images/products/product-8.jpg",
+        "name": "Mercedes Benz",
+        "year": 2023,
+        "fuel": "Hybrid",
+        "price": "20,000",
+        "type": "Automatic",
+        "engine": "10.15km/1 litre"
+    }
+
+]

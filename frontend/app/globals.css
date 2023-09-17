@@ -1,27 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+.skewed::before {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 130px;
+  position: absolute;
+  right: 400px;
+  top: -80px;
+  background: #121f50;
+  transform: rotate(-45deg);
+}
+
+.line {
+  animation: slidein 5ms;
+}
+
+/* @keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  from {
+    margin-left: 0%;
+  }
+} */
+.line::before {
+  content: "";
+  position: absolute;
+  left: -164px;
+  top: 77px;
+  display: block;
+  width: 271px;
+  height: 10px;
+  background: white;
+  transform: rotate(90deg);
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 67px;
+  display: block;
+  width: 220px;
+  height: 6px;
+  background: white;
+}
+.prod::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 67px;
+  display: block;
+  width: 220px;
+  height: 6px;
+  background: #121f50;
+}
+
+.fill {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+.card-expanded {
+  transform: scale(1.1);
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  border-radius: 50px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .panel.active {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contain {
+    max-width: 720px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .clip {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 11% 100%);
+  }
+  .clip1 {
+    clip-path: polygon(0% 0, 89% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@media (min-width: 996px) {
+  .contain {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contain {
+    max-width: 1140px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }

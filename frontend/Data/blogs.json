@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "date": "January 29, 2023",
+        "cover": "/images/blog/blog1.jpg",
+        "details": "There Are Many Variations Of Passage Available."
+    },
+    {
+        "id": 2,
+        "author": "Sarah Lee",
+        "date": "Septemeber 30, 2023",
+        "cover": "/images/blog/blog2.jpg",
+        "details": "There Are Many Variations Of Passage Available."
+    },
+    {
+        "id": 3,
+        "author": "Olatuji James",
+        "date": "July 19, 2023",
+        "cover": "/images/blog/blog3.jpg",
+        "details": "There Are Many Variations Of Passage Available."
+    }
+]
