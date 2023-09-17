@@ -25,7 +25,7 @@ export const Num = () => {
             </p>
           </li>
           <li className="text-center">
-            <FaTools />
+            <FaTools className="border-4 border-brand_primary-100 rounded-full p-4 m-auto text-8xl" />
             <h2 className="text-4xl font-medium">1500</h2>
             <p className="capitalize flex items-center text-lg gap-2">
               <FaPlus />
@@ -33,7 +33,7 @@ export const Num = () => {
             </p>
           </li>
           <li className="text-center">
-            <BsPersonFillCheck />
+            <BsPersonFillCheck className="border-4 border-brand_primary-100 rounded-full p-4 m-auto text-8xl" />
             <h2 className="text-4xl font-medium">20</h2>
             <p className="capitalize flex items-center gap-2">
               <FaPlus /> years of experience
