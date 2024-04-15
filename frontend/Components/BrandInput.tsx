@@ -2,7 +2,7 @@ import { type } from "os";
 import React from "react";
 
 interface BrandInputProps {
-  title: string;
+  title?: string;
   type: string;
   name: string;
   id: string;

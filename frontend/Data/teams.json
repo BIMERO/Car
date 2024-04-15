@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Melissa Chad",
+        "position": "CEO & Founder",
+        "cover": "/images/team/03.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Johnny depp",
+        "position": "Mechanical Engineer",
+        "cover": "/images/team/02.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Mary Johnson",
+        "position": "Executive assistant",
+        "cover": "/images/team/01.jpg"
+    },
+    {
+        "id": 1,
+        "name": "David Joe",
+        "position": "Manager",
+        "cover": "/images/team/04.jpg"
+    }
+]
